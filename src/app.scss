@@ -1,0 +1,85 @@
+@import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// // Set your brand colors
+// $purple: #8A4D76;
+// $pink: #FA7C91;
+// $brown: #757763;
+// $beige-light: #D0D1CD;
+// $beige-lighter: #EFF0EB;
+
+$red: #ff5444;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$black: #0b1b1e;
+$light-blue: #e4fbff;
+$blue: #0ba0be;
+
+// // Update Bulma's global variables
+$family-sans-serif: 'Nunito', sans-serif;
+// $grey-dark: $brown;
+$grey-dark: $black;
+$grey-light: $beige-light;
+$primary: $blue;
+$link: $red;
+$text: $white;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+// $body-background-color: $beige-lighter;
+$body-background-color: $black;
+// $control-border-width: 2px;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5000px;
+}
+
+nav {
+  .navbar-brand {
+    h1 {
+      color: $white;
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 10px;
+    }
+    img {
+      height: 50px;
+    }
+  }
+}
+h1 {
+  color: $light-blue;
+  text-align: center;
+  font-size: 200%;
+}
+h2 {
+    color: $light-blue;
+    text-align: center;
+    font-size: 300% !important; 
+    font-weight: bold;
+}
+p {
+  color: $light-blue;
+  text-align: center;
+  font-size: 200%;
+}
+.button-thing {
+  text-align: center;
+  display: block;
+}
+.button.is-big {
+  font-size: 25px;
+}
+.divCenter {
+    padding: 200px 0;
+}
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/bulma.sass';

@@ -1,0 +1,5 @@
+{
+  "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+  "prettier.configPath": ".prettierrc",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

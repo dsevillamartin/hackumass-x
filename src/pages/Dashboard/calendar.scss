@@ -1,0 +1,23 @@
+html, body, #app, .container, #calendar-container {
+    height: 100%;
+}
+
+#calendar-create-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.75);
+    z-index: 9999;
+    
+
+    #calendar-create {
+        position: relative;
+        margin: auto auto;
+        width: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: 0;
+    }
+}
