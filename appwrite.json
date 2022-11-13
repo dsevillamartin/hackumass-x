@@ -1,0 +1,143 @@
+{
+    "projectId": "636f502bd6d75a45b48b",
+    "projectName": "hackumassx",
+    "collections": [
+        {
+            "$id": "636f5ba37013c90ca3fb",
+            "$createdAt": "2022-11-12T08:38:59.459+00:00",
+            "$updatedAt": "2022-11-12T21:32:20.361+00:00",
+            "$permissions": [
+                "create(\"users\")"
+            ],
+            "databaseId": "636f5b6eafb4f87bc2a5",
+            "name": "events",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "name",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 512,
+                    "default": null
+                },
+                {
+                    "key": "start_time",
+                    "type": "datetime",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "format": "",
+                    "default": null
+                },
+                {
+                    "key": "end_time",
+                    "type": "datetime",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "format": "",
+                    "default": null
+                },
+                {
+                    "key": "location",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 255,
+                    "default": null
+                },
+                {
+                    "key": "notes",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 16777215,
+                    "default": null
+                },
+                {
+                    "key": "calendar_id",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "min": -9223372036854775808,
+                    "max": 9223372036854775807,
+                    "default": null
+                },
+                {
+                    "key": "priority",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "min": -9223372036854775808,
+                    "max": 9223372036854775807,
+                    "default": null
+                },
+                {
+                    "key": "id",
+                    "type": "integer",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "min": -9223372036854775808,
+                    "max": 9223372036854775807,
+                    "default": null
+                },
+                {
+                    "key": "color",
+                    "type": "string",
+                    "status": "available",
+                    "required": false,
+                    "array": false,
+                    "size": 20,
+                    "default": null
+                },
+                {
+                    "key": "user_id",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 255,
+                    "default": null
+                }
+            ],
+            "indexes": [
+                {
+                    "key": "user_id",
+                    "type": "key",
+                    "status": "available",
+                    "attributes": [
+                        "user_id"
+                    ],
+                    "orders": [
+                        "ASC"
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "$id": "637027feb8a0870944ec",
+            "name": "ics",
+            "runtime": "node-16.0",
+            "path": "functions/ics",
+            "entrypoint": "src/index.js",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15
+        }
+    ]
+}
