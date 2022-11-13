@@ -1,0 +1,16 @@
+@import '../variables.scss';
+
+.divCenter {
+  img#big-logo {
+    height: 300px;
+    // margin: auto;
+    margin-top: -100px;
+    display: block;
+  }
+}
+
+.container[data-path="/"] {
+  background: no-repeat url('../assets/demo-bg.png');
+  background-size: cover;
+  max-width: 100% !important;
+}

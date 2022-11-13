@@ -1,0 +1,60 @@
+@import 'bulma/sass/utilities/initial-variables';
+@import 'bulma/sass/utilities/functions';
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$red: #ff5444;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+// $black: #0b1b1e;
+$black: #424242;
+$light-blue: #e4fbff;
+$blue: #0ba0be;
+
+$family-sans-serif: 'Nunito', sans-serif;
+$primary: $blue;
+$link: $red;
+
+// (c) 2017 Jeremy Thomas
+// This code is licensed under MIT license (https://github.com/jgthms/bulma/blob/master/docs/LICENSE)
+$scheme-main: $black;
+$scheme-main-bis: $black-bis;
+$scheme-main-ter: $black-ter;
+$scheme-invert: $white;
+$scheme-invert-bis: $white-bis;
+$scheme-invert-ter: $white-ter;
+
+$background: $black-ter;
+// $background: $black;
+
+$border: $grey-darker;
+$border-hover: $grey-dark;
+$border-light: $grey-darker;
+$border-light-hover: $grey-dark;
+
+// Modal colors
+$modal-background-background-color: bulmaRgba($black, 0.86);
+
+// Form colors
+$input-focus-border-color: $primary;
+$input-focus-box-shadow-color: rgba($primary, 0.25);
+
+// Text colors
+$text: $grey-light;
+$text-invert: $grey-darker;
+$text-light: $grey;
+$text-strong: $white;
+
+// Link colors
+$link-hover: $white;
+$link-hover-border: $grey-dark;
+
+$link-focus: $white;
+$link-focus-border: $blue;
+
+$link-active: $white;
+$link-active-border: $grey-light;
+// End license
+
+@import '../node_modules/bulma/sass/utilities/derived-variables.sass';

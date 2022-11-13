@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 import { getCurrentAccount } from '../../api'
 
+import './style.scss'
+
 export default function Phone() {
   const [isLoading, setIsLoading] = useState(false)
 
-  // TODO twilio is no longer $50 free credits
+  // TODO twilio is no longer giving $50 free credits
   //so epic!!!
 
   useEffect(() => {

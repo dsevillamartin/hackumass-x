@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+div#wrapper404 {
+  margin-top: 25px;
+
+  img#shark404 {
+    height: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  h2#msg404,
+  h3.option404 {
+    max-width: 650px;
+    text-align: left;
+    display: block;
+    margin: auto;
+  }
+
+  h2#msg404 {
+    font-size: 35px !important;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  h3.option404 {
+    font-size: 25px;
+  }
+  a.link {
+    // margin-left: 10px;
+    // margin-right: 10px;
+    display: inline-block;
+  }
+}

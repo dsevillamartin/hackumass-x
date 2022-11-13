@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.container[data-path^='/auth'] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form.auth-form {
+  background-color: $blue;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 25px;
+
+  #title {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .field.is-grouped {
+    justify-content: center;
+  }
+
+  .field {
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 500px;
+  }
+}
