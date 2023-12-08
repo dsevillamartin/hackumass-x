@@ -29,7 +29,7 @@ const process = async (storage, documents, userId) => {
         start: start_time,
         end: end_time,
         location,
-        url: 'https://blahgenda.tech/calendar',
+        url: 'https://blahgenda.dsev.dev/calendar',
       });
     } catch (e) {
       console.error('Failed processing document for', userId, document, e);
@@ -80,7 +80,7 @@ module.exports = async function (req, res) {
     );
   } else {
     client
-      .setEndpoint('https://api.blahgenda.tech/v1')
+      .setEndpoint('https://api-blahgenda.dsev.dev/v1')
       .setProject(req.variables['APPWRITE_FUNCTION_PROJECT_ID'])
       .setKey(req.variables['APPWRITE_FUNCTION_API_KEY'])
       .setSelfSigned(true);
