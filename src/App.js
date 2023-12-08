@@ -79,7 +79,7 @@ const App = () => {
                     <a
                       className="button"
                       target="_blank"
-                      href={`https://api.blahgenda.tech/v1/storage/buckets/6370291502dec4fa9083/files/${accountId}/view?project=636f502bd6d75a45b48b&mode=admin`}
+                      href={`https://api-blahgenda.dsev.dev/v1/storage/buckets/6370291502dec4fa9083/files/${accountId}/view?project=636f502bd6d75a45b48b&mode=admin`}
                     >
                       Export
                     </a>
